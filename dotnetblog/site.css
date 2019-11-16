@@ -3,9 +3,14 @@ body{
     background:#ffffff;
     color:#000
     }
-    
+
 #banner{
-    color:#006699;
+    border-bottom:#006699 0px solid;
+    border-top:#006699 1px solid;
+    font-size:small;
+    font-family:'arial narrow', arial, sans-serif;
+    height:90px;
+    border-bottom:#006699 0px dashed;
 }
 
 #content{
@@ -13,3 +18,48 @@ body{
     color:#000;
     background:#ffffff;
 }
+
+.basictab{
+    padding: 0px 4px 2px;
+    margin-left: 0;
+    font: bold 12px Verdana;
+    border-bottom:1px solid #BCD2E6;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the menu as desired*/
+    }
+    
+    .basictab li{
+    display: inline;
+    margin: 0;
+    }
+    
+    .basictab li a{
+    text-decoration: none;
+    padding: 3px 4px;
+    margin-right: 0px;
+    border:1px solid #BCD2E6;
+    border-bottom: none;
+    background-color: #EEEEEE;
+    color:#627EB7;
+    }
+    
+    .basictab li a:visited{
+    color: #2d2b2b;
+    }
+    
+    .basictab li a:hover{
+    background-color: #BCD2E6;
+    color: black;
+    }
+    
+    .basictab li a:active{
+    color: black;
+    }
+    
+    .basictab li.selected a{ /*selected tab effect*/
+    
+    top: 1px;
+    padding-top: 1px;
+    background-color: #BCD2E6;
+    color: black;
+    }
