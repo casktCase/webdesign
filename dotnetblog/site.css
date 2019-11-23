@@ -5,6 +5,8 @@ body{
     }
 
 #banner{
+    background:#415B8C url("images/banner.jpg");
+    background-repeat: no-repeat;
     border-bottom:#006699 0px solid;
     border-top:#006699 1px solid;
     font-size:small;

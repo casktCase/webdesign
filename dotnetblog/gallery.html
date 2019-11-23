@@ -2,14 +2,18 @@
 <html>
     <head>
         <title>gallery</title>
-        <link href="site.css" type="text/css" rel="stylesheet" />  
+        <link href="site.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="include.js"></script>   
     </head>
     <body>
         <div id="banner"></div>
-        <div id="body">gallery
+        <div id="body">
             <div id="content">
                 <div w3-include-html="tabsUser.html"></div>
             </div>
         </div>
+        <script>
+            includeHTML();
+        </script>
     </body>
 </html>
