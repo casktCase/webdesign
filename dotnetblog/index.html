@@ -2,17 +2,17 @@
 <html>
     <head>
         <link href="site.css" type="text/css" rel="stylesheet" />
-        <script type="text/javascript" src="include.js"></script>  
+        <script type="text/javascript" src="scripts/include.js"></script>  
     </head>
     <body>
         <div id="banner"></div>
         <div id="body">
             <div id="content">
-                <div w3-include-html="tabsUser.html"></div>
+                <script>
+                    includeHTML();
+                </script>
             </div>
         </div>
-        <script>
-            includeHTML();
-        </script>
+        
     </body>
 </html>
